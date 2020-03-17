@@ -1,3 +1,4 @@
+# Create your views here.
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
@@ -7,4 +8,5 @@ from django.shortcuts import render
 from django.http import HttpResponse
  
 def index(req):
-  return render(req, 'index.html')
+##    return HttpResponse('INDEX')
+    return render(req, 'index.html')
